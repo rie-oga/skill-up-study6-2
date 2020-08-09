@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.group1 .flex {
+	width: 100%;
+	padding: 30px 20px;
+	background-color: #ffdab9;
+	display: flex;
+	justify-content: flex-end;
+}
+.group1 .flex > div {
+	flex-basis: 140px;
+	height: 70px;
+	margin: 0 10px;
+}
+.group1 .flex > div:nth-child(1) {
+	background-color: #800000;
+	margin-right: auto;
+}
+.group1 .flex > div:nth-child(2) {
+	background-color: #a52a2a;
+}
+.group1 .flex > div:nth-child(3) {
+	background-color: #b22222;
+}
+.group1 .flex > div:nth-child(4) {
+	background-color: #cd5c5c;
+}
+.group1 .flex > div:nth-child(5) {
+	background-color: #f08080;
+}
+
+.group2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.group2 .left {
+	width: 300px;
+	background-color: #fff5ee;
+}
+.group2 .right {
+	max-width: 700px;
+	flex-grow:1;
+	padding: 20px;
+	background-color: #ffe4e1;
+	display: flex;
+	flex-wrap: wrap;
+}
+.group2 .right > div {
+	flex-basis: 200px;
+	height: 130px;
+	margin: 10px;
+}
+.group2 .right > div:nth-child(1) {
+	background-color: #dda0dd;
+}
+.group2 .right > div:nth-child(2) {
+	background-color: #ee82ee;
+}
+.group2 .right > div:nth-child(3) {
+	background-color: #da70d6;
+}
+.group2 .right > div:nth-child(4) {
+	background-color: #ba55d3;
+}
+.group2 .right > div:nth-child(5) {
+	background-color: #9932cc;
+}
+.group2 .right > div:nth-child(6) {
+	background-color: #9400d3;
+}
+.group2 .right > div:nth-child(7) {
+	background-color: #9400d3;
+}
+.group2 .right > div:nth-child(8) {
+	background-color: #8b008b;
+}
+.group2 .right > div:nth-child(9) {
+	background-color: #800080;
+}
+
+.group3 .flex {
+	width: 100%;
+	padding: 20px;
+	background-color: #ffdab9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.group3 .flex > div {
+	flex-basis: 45%;
+	max-width: 600px;
+	height: 40px;
+	margin: 10px;
+}
+.group3 .flex > div:nth-child(1) {
+	background-color: #ff4500;
+	margin-right: auto;
+}
+.group3 .flex > div:nth-child(2) {
+	background-color: #ff0000;
+}
+.group3 .flex > div:nth-child(3) {
+	background-color: #ff1493;
+}
